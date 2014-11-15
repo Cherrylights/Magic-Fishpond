@@ -47,7 +47,7 @@ void setup () {
   //  myPort.bufferUntil('\n');
 
   RG.init(this);
-  myFont = new RFont("FreeSans.ttf", 190, CENTER);
+  myFont = new RFont("FreeSans.ttf", 150, CENTER);
   RCommand.setSegmentLength(15);
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH);
 
