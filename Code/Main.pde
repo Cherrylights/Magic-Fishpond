@@ -212,8 +212,18 @@ void keyPressed() {
   if (myText == "") {
     println("empty");
   }
-  if (myText.length() < 9) {
-    myText+=key;
+  if (myText.length() < 30 && key =='A'|| key =='a'||key =='B'||key =='b'||key =='C'||
+  key =='c'||key =='D'||key =='d'||key =='E'||key =='e'||key =='F'||key =='f'||key =='G'||
+  key =='g'||key =='H'||key =='h'||key =='I'||key =='i'||key =='J'||key =='j'||key =='K'||
+  key =='k'||key =='L'||key =='l'||key =='M'||key =='m'||key =='N'||key =='n'||key =='O'||
+  key =='o'||key =='P'||key =='p'||key =='Q'||key =='q'||key =='R'||key =='r'||key =='S'||
+  key =='s'||key =='T'||key =='t'||key =='U'||key =='u'||key =='V'||key =='v'||key =='W'||
+  key =='w'||key =='X'||key =='x'||key =='Y'||key =='y'||key =='Z'||key =='z'||key ==' ') {
+    if (key == ' ') {
+      myText+=" ";
+    } else {
+      myText+=key;
+    }
   }
 }
 
