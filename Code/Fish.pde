@@ -14,7 +14,7 @@ class Fish {
     for (int i = 1; i < location.length; i++) {
       location[i] = location[0].get ();
     }
-    ellipseSize = random (6, 30);
+    ellipseSize = random (8, 30);
   }
 
   // GET ------------------------------
